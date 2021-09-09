@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import { Container, Typography, Button } from '@material-ui/core';
 import { resumeData } from '../data/profile';
 
-const SingleAbout = (params) => {
+const SingleAbout = () => {
   const [resume_id, setResumeId] = useState(0);
-  const id = params.match.params.id;
+  const router = useRouter();
+  console.log(router);
+  const id = router.query.index;
   useEffect(() => {
     setResumeId(id - 1);
 

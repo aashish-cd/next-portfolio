@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { resumeData } from '../data/profile';
 import { Container, Grid, Typography, Button } from '@material-ui/core';
 
@@ -60,11 +60,11 @@ const About = () => {
                 {resumeData[index]?.description}
               </Typography>
               <div align='center'>
-                <a href='#' align='center'>
+                <Link href={`/page/${resumeData[index]?.id}`} align='center'>
                   <Button variant='outlined' color='primary'>
                     See More
                   </Button>
-                </a>
+                </Link>
               </div>
             </Container>
             <i

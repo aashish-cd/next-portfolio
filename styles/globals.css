@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #444;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media screen and (width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: xx-small;
+    background-color: red;
+  }
+}
