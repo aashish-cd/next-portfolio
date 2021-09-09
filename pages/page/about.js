@@ -30,7 +30,7 @@ const About = () => {
             }}
           >
             <i
-              class='bx bx-left-arrow '
+              className='bx bx-left-arrow '
               style={{
                 fontSize: '48px',
                 cursor: 'pointer',
@@ -39,8 +39,12 @@ const About = () => {
             ></i>
             <Container alignContent='center' alignItems='center'>
               <div className='d-flex flex-row justify-content-center  '>
-                {resumeData[index]?.logo?.map((bx) => (
-                  <i className={`${bx}`} style={{ fontSize: '5rem' }}></i>
+                {resumeData[index]?.logo?.map((bx, index) => (
+                  <i
+                    key={index}
+                    className={`${bx}`}
+                    style={{ fontSize: '5rem' }}
+                  ></i>
                 ))}
               </div>
               <Typography variant='h5' align='center' className=''>
@@ -68,7 +72,7 @@ const About = () => {
               </div>
             </Container>
             <i
-              class='bx bx-right-arrow'
+              className='bx bx-right-arrow'
               style={{
                 fontSize: '48px',
                 cursor: 'pointer',

@@ -17,8 +17,8 @@ const SingleAbout = () => {
     <>
       <Container alignContent='center' alignItems='center' className='m-2 p-4'>
         <div className='d-flex flex-row justify-content-center  '>
-          {resumeData[resume_id]?.logo?.map((bx) => (
-            <i className={`${bx}`} style={{ fontSize: '5rem' }}></i>
+          {resumeData[resume_id]?.logo?.map((bx, index) => (
+            <i key={index} className={`${bx}`} style={{ fontSize: '5rem' }}></i>
           ))}
         </div>
         <Typography variant='h5' align='center' className='mt-2 mb-2'>
@@ -41,8 +41,8 @@ const SingleAbout = () => {
         </Typography>
         <Typography variant='h6' align='center' className='mt-2 mb-2'>
           skills :{' '}
-          {resumeData[resume_id]?.skill.map((sk) => (
-            <Button variant='outlined' color='secondary'>
+          {resumeData[resume_id]?.skill.map((sk, index) => (
+            <Button key={index} variant='outlined' color='secondary'>
               {sk}
             </Button>
           ))}
