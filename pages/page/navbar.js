@@ -12,6 +12,7 @@ const Navbar = () => {
               zIndex: '10',
             }}
             href='/page/'
+            passHref
           >
             <Button variant='outlined' style={{ color: 'white' }}>
               Home
@@ -22,6 +23,7 @@ const Navbar = () => {
               zIndex: '10',
             }}
             href='/page/about'
+            passHref
           >
             <Button variant='outlined' style={{ color: 'white' }}>
               About
