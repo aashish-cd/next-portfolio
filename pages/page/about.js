@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { resumeData } from '../data/profile';
+import { resumeData } from '../../data/profile';
 import { Container, Grid, Typography, Button } from '@material-ui/core';
 
 const About = () => {

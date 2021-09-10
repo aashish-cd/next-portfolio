@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { Container, Typography, Button } from '@material-ui/core';
-import { resumeData } from '../data/profile';
+import { resumeData } from '../../data/profile';
 
 const SingleAbout = () => {
   const [resume_id, setResumeId] = useState(0);

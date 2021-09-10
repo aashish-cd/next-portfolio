@@ -1,5 +1,5 @@
 import React from 'react';
-import { socialMedia } from '../data/profile';
+import { socialMedia } from '../../data/profile';
 const Footer = () => {
   return (
     <>

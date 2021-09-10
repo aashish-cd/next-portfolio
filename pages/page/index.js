@@ -1,6 +1,6 @@
 import { Container, Typography } from '@material-ui/core';
 import React from 'react';
-import { profileData } from '../data/profile';
+import { profileData } from '../../data/profile';
 
 const Home = () => {
   return (
