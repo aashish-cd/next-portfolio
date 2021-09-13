@@ -51,20 +51,25 @@ export const socialMedia = [
     iconClass: 'bx bxl-facebook',
   },
   {
-    id: 1,
+    id: 2,
     link: 'https://www.twitter.com/aashish_cd',
     iconClass: 'bx bxl-twitter',
   },
   {
-    id: 1,
+    id: 3,
     link: 'https://www.linkedin.com/in/aashish-cd',
     iconClass: 'bx bxl-linkedin',
   },
 
   {
-    id: 5,
+    id: 4,
     link: 'https://www.github.com/aashish-cd',
     iconClass: 'bx bxl-github',
+  },
+  {
+    id:5,
+    link : 'tel:9844682742',
+    iconClass: 'bx bx-phone-call',
   },
 ];
 
