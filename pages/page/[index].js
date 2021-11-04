@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 import { Container, Typography, Button } from '@material-ui/core';
 import { resumeData } from '../../data/profile';
 

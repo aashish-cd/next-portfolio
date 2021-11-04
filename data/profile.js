@@ -67,8 +67,8 @@ export const socialMedia = [
     iconClass: 'bx bxl-github',
   },
   {
-    id:5,
-    link : 'tel:9844682742',
+    id: 5,
+    link: 'tel:9844682742',
     iconClass: 'bx bx-phone-call',
   },
 ];
@@ -82,7 +82,7 @@ export const resumeData = [
     duration: '2019 - 2021 (present)',
     description: 'Web developer at Ace Studios',
     skill: ['Javascript', 'HTML', 'React.js', 'Node.js', 'MongoDB'],
-    site: 'www.acestudios.ml',
+    site: 'https://www.acestudios.ml',
   },
   {
     id: 2,
@@ -92,6 +92,7 @@ export const resumeData = [
     duration: '2021 - present',
     description: 'Junior React Developer at AS Sys',
     skill: ['Javascript', 'HTML', 'React.js', 'Node.js', 'MongoDB'],
+    site: 'https://www.acestudios.ml',
   },
   {
     id: 3,
@@ -101,6 +102,7 @@ export const resumeData = [
     duration: '2021 - present',
     description: 'Junior React Developer at AS Sys',
     skill: ['Javascript', 'HTML', 'React.js', 'Node.js', 'MongoDB'],
+    site: 'https://www.acestudios.ml',
   },
   {
     id: 4,
@@ -110,6 +112,7 @@ export const resumeData = [
     duration: '2021 - present',
     description: 'Junior React Developer at AS Sys',
     skill: ['Javascript', 'HTML', 'React.js', 'Node.js', 'MongoDB'],
+    site: 'https://www.acestudios.ml',
   },
 ];
 
