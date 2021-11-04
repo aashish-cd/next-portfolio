@@ -50,9 +50,11 @@ const About = () => {
               <Typography variant='h5' align='center' className=''>
                 {resumeData[index]?.job}
               </Typography>
-              <Typography variant='h6' align='center'>
-                {resumeData[index]?.workplace}
-              </Typography>
+              <a href={resumeData[index]?.site}>
+                <Typography variant='h6' align='center'>
+                  {resumeData[index]?.workplace}
+                </Typography>
+              </a>
               <Typography
                 variant='h6'
                 className='bg-blue shadow-lg duration'

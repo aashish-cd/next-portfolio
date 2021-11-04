@@ -25,9 +25,11 @@ const SingleAbout = () => {
           {resumeData[resume_id]?.job}
         </Typography>
         <Typography variant='h6' align='center' className='mt-2 mb-2'>
-          <Button variant='contained'>
-            {resumeData[resume_id]?.workplace}
-          </Button>
+          <a href={resumeData[resume_id]?.site}>
+            <Button variant='contained'>
+              {resumeData[resume_id]?.workplace}
+            </Button>
+          </a>
         </Typography>
         <Typography
           variant='h6'

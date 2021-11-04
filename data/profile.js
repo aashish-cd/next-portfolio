@@ -77,6 +77,7 @@ export const resumeData = [
     duration: '2019 - 2021 (present)',
     description: 'Web developer at Ace Studios',
     skill: ['Javascript', 'HTML', 'React.js', 'Node.js', 'MongoDB'],
+    site: 'www.acestudios.ml',
   },
   {
     id: 2,
