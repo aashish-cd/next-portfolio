@@ -30,7 +30,8 @@ const Navbar = () => {
   //later
   useEffect(() => {
     if (pathname === '/') setActive('About');
-    else if (pathname === '/projects') setActive('Projects');
+    //for project section
+    //else if (pathname === '/projects') setActive('Projects');
     else if (pathname === '/resume') setActive('Resume');
   }, []);
 
@@ -48,12 +49,13 @@ const Navbar = () => {
           name='Resume'
           route='/resume'
         />
-        <NavItem
+        {/* for project section */}
+        {/* <NavItem
           active={active}
           setActive={setActive}
           name='Projects'
           route='/projects'
-        />
+        /> */}
       </div>
     </div>
   );
