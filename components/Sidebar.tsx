@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import { GiTie } from 'react-icons/gi';
 import { GoLocation } from 'react-icons/go';
@@ -7,9 +8,10 @@ import Image from 'next/image';
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
 
-  const changeTheme = () => {
-    setTheme(theme === 'light' ? 'dark' : 'light');
-  };
+  useEffect(() => {
+    setTheme('dark');
+    return () => {};
+  }, [theme]);
 
   return (
     <>
