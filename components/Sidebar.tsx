@@ -73,12 +73,9 @@ const Sidebar = () => {
       >
         Email me
       </button>
-      <button
-        onClick={changeTheme}
-        className='w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 '
-      >
+      <button className='w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 '>
         {/* //TODO remove bg black */}
-        Toggle Theme
+        <a href='tel:9844682742'>Call me</a>
       </button>
     </>
   );
