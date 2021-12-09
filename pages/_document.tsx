@@ -22,7 +22,7 @@ class MyDocument extends Document {
             content='react developer, web developer, front end developer, ioe dharan, ioe nepal, ioe tu, aashish bhatt , aashish bhatta, आशिष भट्ट '
           />
           <meta name='robots' content='index, follow' />
-          <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+          <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
           <meta name='language' content='English' />
           <link rel='preconnect' href='https://fonts.gstatic.com' />
           <link
